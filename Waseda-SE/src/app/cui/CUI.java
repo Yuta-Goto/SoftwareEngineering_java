@@ -106,7 +106,7 @@ public class CUI {
 		if (reservationNumber == null || reservationNumber.length() == 0) {
 			System.out.println("Invalid reservation number");
 			return;
-		}
+		}    
 
 		CheckInRoomForm checkInRoomForm = new CheckInRoomForm();
 		checkInRoomForm.setReservationNumber(reservationNumber);
